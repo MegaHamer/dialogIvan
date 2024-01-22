@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.chat-messages {
+    -ms-overflow-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1vh;
+    max-height: 60vh;
+    min-height: 50vh;
+    overflow-y: auto;
+    scrollbar-width: none;
+    width: 100%;
+}
+.date-separator {
+    background-color: dimgrey;
+    border-radius: 10px;
+    color: #ffffffc5;
+    margin: 15px auto 0;
+    padding: 0 10px 4px;
+    position: -webkit-sticky;
+    /* position: sticky; */
+    text-align: center;
+    top: 0;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    z-index: 1;
+}
+.other-message-container {
+    justify-content: flex-start;
+}
+.message-container {
+    display: flex;
+    width: 100%;
+}
+.self-message-container {
+    justify-content: flex-end;
+}
+.other-message {
+    background-color: #f0f0f0;
+    color: #000;
+}
+.message {
+    border-radius: 10px;
+    padding: 10px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+.text-break {
+    word-wrap: break-word!important;
+    word-break: break-word!important;
+}
+.message-time {
+    margin: 2px 3px 10px 5px;
+}
+.text-white {
+    --bs-text-opacity: 1;
+    color: rgba(255,255,255,var(--bs-text-opacity))!important;
+    color: rgba(var(--bs-white-rgb),var(--bs-text-opacity))!important;
+}
+.justify-content-start {
+    justify-content: flex-start!important;
+}
+.d-flex {
+    display: flex!important;
+}
+.small, small {
+    font-size: .875em;
+}
+.self-message {
+    background-color: #0084ff;
+    color: #fff;
+}
+.message {
+    border-radius: 10px;
+    padding: 10px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+.text-break {
+    word-wrap: break-word!important;
+    word-break: break-word!important;
+}
+.message-time {
+    margin: 2px 3px 10px 5px;
+}
+.text-white {
+    --bs-text-opacity: 1;
+    color: rgba(255,255,255,var(--bs-text-opacity))!important;
+    color: rgba(var(--bs-white-rgb),var(--bs-text-opacity))!important;
+}
+.justify-content-end {
+    justify-content: flex-end!important;
+}
+.d-flex {
+    display: flex!important;
+}
+.bg-dark {
+    background-color: rgba(33,37,41,1)!important;
+}
